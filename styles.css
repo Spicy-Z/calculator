@@ -1,0 +1,107 @@
+/* Container */
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Orbitron", sans-serif;
+}
+
+.calc-container {
+  display: flex;
+  background-color: black;
+  width: 600px;
+  height: 600px;
+  border-radius: 45px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Screen */
+.screen {
+  background-color: darkgray;
+  color: white;
+  width: 90%;
+  height: 100px;
+  border-radius: 30px;
+  align-content: center;
+  font-size: 48px;
+  text-align: right;
+  padding: 5px;
+}
+
+/* Button Container */
+
+.button-container {
+  display: flex;
+
+  width: 550px;
+}
+
+.number-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: auto;
+  width: 70%;
+  gap: 10px;
+  padding-right: 15px;
+}
+
+.operator-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: auto;
+  width: 30%;
+  gap: 10px;
+
+  /* Buttons */
+}
+.number {
+  color: black;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-size: 48px;
+}
+
+.operator {
+  color: black;
+  border-radius: 10px;
+  width: 100px;
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-size: 48px;
+  background-color: rgb(255, 174, 0);
+}
+
+.clear-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 5px;
+}
+
+#clear {
+  background-color: rgb(255, 68, 68);
+}
+#backspace {
+  background-color: rgb(255, 68, 68);
+  font-size: 30px;
+}
+
+#equals {
+  background-color: rgb(66, 253, 66);
+}
