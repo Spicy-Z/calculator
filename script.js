@@ -26,7 +26,7 @@ function multiply(a, b) {
 
 function divide(a, b) {
   if (a == 0 && b == 0) {
-    return "ermmmm what the sigma";
+    return "erm what the sigma";
   } else return parseFloat(a) / parseFloat(b);
 }
 function operate(operator, a, b) {
@@ -82,6 +82,7 @@ operator.addEventListener("click", (e) => {
       operation = undefined;
       value = undefined;
     }
+
 
     operation = id;
 
